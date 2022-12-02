@@ -1,0 +1,9 @@
+.conta {
+    margin-top: 340px;
+}
+
+@media (max-width: 767px) {
+    .conta {
+        margin-top: 80px;
+    }
+}

@@ -1,0 +1,57 @@
+.services {
+    margin-top: 80px !important;
+}
+
+.services h1 {
+    font-size: 46px !important;
+    color: #5674ec;
+}
+
+.marketing {
+    margin-top: 20px;
+    color: #000 !important;
+    font-family: "Medium";
+}
+
+.marketing h1 {
+    color: #fff;
+    font-family: "Medium";
+    font-size: 36px !important;
+}
+
+.card {
+    width: 350px !important;
+    margin-top: 20px !important;
+    /* margin: 20px !important; */
+    background-color: #5674ec !important;
+    border-radius: 0px !important;
+    height: 500px !important;
+    padding: 20px;
+    position: relative !important;
+}
+
+.text {
+    margin-top: 20px !important;
+}
+
+.text li {
+    margin-top: 10px;
+    font-family: "Medium";
+    font-size: 16px !important;
+    color: #fff;
+    list-style: none !important;
+}
+
+.buy_btn {
+    bottom: 20px !important;
+    position: absolute !important;
+    border: 3px solid #FFFFFF !important;
+    background-color: transparent !important;
+    border-radius: 0px !important;
+    letter-spacing: 2px;
+}
+
+.buy_btn a {
+    color: #fff !important;
+    font-size: 16px !important;
+}

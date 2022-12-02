@@ -1,0 +1,17 @@
+.post {
+    height: auto;
+    margin-top: 40px !important;
+    background-color: #5674EC;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    text-align: center;
+}
+
+.post h1 {
+    margin-bottom: 35px;
+    color: #fff;
+}
+
+.post img {
+    max-width: 150px !important;
+}

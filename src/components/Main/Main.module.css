@@ -1,0 +1,161 @@
+a:hover {
+    color: #5674EC !important;
+}
+
+.intro {
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 282px !important;
+}
+
+.intro h1 {
+    font-size: 3rem;
+    color: #5674EC !important;
+}
+
+.intro p {
+    font-size: 1.5rem;
+    color: #5674EC !important;
+    opacity: 50%;
+}
+
+.carousel {
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 240px !important;
+}
+
+.medline img {
+    max-width: 260px !important;
+    height: auto;
+}
+
+.ibag img {
+    max-width: 260px !important;
+    height: auto;    
+}
+
+.lawyer img {
+    max-width: 260px !important;
+    height: auto;
+}
+
+.btns {
+    margin-top: 40px !important;
+}
+
+.portfolio_btn {
+    width: 200px;
+    height: 50px;
+    background-color: #5674EC !important;
+    color: #fff !important;
+    border-radius: 0px !important;
+    font-size: 26px !important;
+}
+
+.services_btn {
+    margin-left: 40px;
+    width: 200px;
+    height: 50px;
+    background-color: transparent !important;
+    color: #5674EC !important;
+    border-radius: 0px !important;
+    border: 2px solid #5674EC;
+    font-size: 26px !important;
+}
+
+.portfolio_btn a {
+    color: #fff !important;
+}
+
+.services_btn a {
+    color: #5674EC !important;
+}
+
+/* .mainbg {
+    background: linear-gradient(0deg, rgba(87, 86, 86, 0.15) 0%, rgba(87, 86, 86, 0) 100%);
+    border-radius: 0px 0px 10px 10px;
+    background-size: 100vh;
+} */
+
+@media (max-width: 767px) {
+    .intro {
+        margin: 0 auto !important;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        margin-top: 120px !important;
+    }
+
+    .intro p {
+        font-size: 24px ;
+    }
+
+    .carousel {
+        width: 0px !important;
+        height: 0px !important;
+        margin-top: 0px !important;
+    }
+
+    .medline img {
+        max-width: 0px !important;
+        height: auto;
+    }
+    
+    .ibag img {
+        max-width: 0px !important;
+        height: auto;    
+    }
+    
+    .lawyer img {
+        max-width: 0px !important;
+        height: auto;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .intro p {
+        font-size: 1rem;
+        width: 320px;
+    }
+}
+
+/* @media (max-width:460px) {
+    .services_btn {
+        margin-left: 0 !important;
+        margin-top: 0px;
+    }
+}
+
+@media (max-width:1199px) {
+    .services_btn {
+        margin-top: 20px;
+        margin-left: 0px !important;
+    }
+} */
+
+@media (max-width:1199px) {
+    .portfolio_btn {
+        width: 150px;
+        height: 37.5px;
+        background-color: #5674EC !important;
+        color: #fff !important;
+        border-radius: 0px !important;
+        font-size: 16px !important;
+    }
+    
+    .services_btn {
+        margin-left: 40px;
+        width: 150px;
+        height: 37px;
+        background-color: transparent !important;
+        color: #5674EC !important;
+        border-radius: 0px !important;
+        border: 2px solid #5674EC;
+        font-size: 16px !important;
+    }
+}
